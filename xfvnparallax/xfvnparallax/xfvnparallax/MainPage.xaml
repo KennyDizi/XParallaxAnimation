@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="xfvnparallax.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xWellcare="clr-namespace:XFMiniMobileApplication.SourceCode.Controls.XWellcare;assembly=xfvnparallax">
+    <xWellcare:ParallaxView Fade="True" ParallaxRate="3">
+        <xWellcare:ParallaxView.ImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <OnPlatform.Android>icon.png</OnPlatform.Android>
+                <OnPlatform.iOS>Icon-76.png</OnPlatform.iOS>
+            </OnPlatform>
+        </xWellcare:ParallaxView.ImageSource>
+        <xWellcare:ParallaxView.ContentView>
+            <StackLayout>
+                <Label Text="ahgal  akhga la glahf aghalhgal ghalkhgal laglha" TextColor="Aqua" />
+
+                <Image HeightRequest="100" WidthRequest="100">
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="ImageSource">
+                            <OnPlatform.Android>icon.png</OnPlatform.Android>
+                            <OnPlatform.iOS>Icon-76.png</OnPlatform.iOS>
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>
+
+                <Label Text="ahgal  akhga la glahf aghalhgal ghalkhgal laglha" TextColor="Aqua" />
+
+                <Image HeightRequest="100" WidthRequest="100">
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="ImageSource">
+                            <OnPlatform.Android>icon.png</OnPlatform.Android>
+                            <OnPlatform.iOS>Icon-76.png</OnPlatform.iOS>
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>
+                <Label Text="ahgal  akhga la glahf aghalhgal ghalkhgal laglha" TextColor="Aqua" />
+
+                <Image HeightRequest="100" WidthRequest="100">
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="ImageSource">
+                            <OnPlatform.Android>icon.png</OnPlatform.Android>
+                            <OnPlatform.iOS>Icon-76.png</OnPlatform.iOS>
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>
+
+                <Image HeightRequest="100" WidthRequest="100">
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="ImageSource">
+                            <OnPlatform.Android>icon.png</OnPlatform.Android>
+                            <OnPlatform.iOS>Icon-76.png</OnPlatform.iOS>
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>
+
+                <Image HeightRequest="100" WidthRequest="100">
+                    <Image.Source>
+                        <OnPlatform x:TypeArguments="ImageSource">
+                            <OnPlatform.Android>icon.png</OnPlatform.Android>
+                            <OnPlatform.iOS>Icon-76.png</OnPlatform.iOS>
+                        </OnPlatform>
+                    </Image.Source>
+                </Image>
+            </StackLayout>
+        </xWellcare:ParallaxView.ContentView>
+    </xWellcare:ParallaxView>
+</ContentPage>

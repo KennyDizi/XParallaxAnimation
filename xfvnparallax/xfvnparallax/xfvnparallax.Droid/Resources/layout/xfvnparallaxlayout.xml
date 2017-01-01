@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <ImageView
+        android:paddingTop="10dp"
+        android:id="@+id/parallax_main_image"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:alpha="1" />
+  <xfvnparallax.Droid.ExtendedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true"
+      android:id="@+id/parallax_scroll_view">
+    <LinearLayout
+        android:paddingTop="180dp"
+        android:orientation="vertical"
+        android:id="@+id/parallax_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </xfvnparallax.Droid.ExtendedScrollView>
+</FrameLayout>
